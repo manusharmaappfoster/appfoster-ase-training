@@ -1,0 +1,54 @@
+
+ls
+ls-l
+ls -l
+ls -la
+cd ..
+ls
+cd
+ls
+cd Desktop
+ls
+cd appfoster-ase-training
+ls
+touch test
+ls
+cat > Task-9 CLI
+task-9
+cd task-9
+cat >> task-9
+cat task-9
+cat >> task-9
+cat task-9
+cat >> task-9
+cat task-9
+mkdir Task-9 CLI
+mkdir Task-9_CLI
+ls
+cd Task-9_CLI
+ls
+cd
+cd..
+cd
+ls
+history -w ~/Desktop/Task-9_CLI.txt
+ls
+cd Desktop
+ls
+cd appfoster-ase-tarining
+cd appfoster-ase-training
+ls
+touch file_test
+ls
+mv file_test /Task-9_CLI
+sudo mn file_test /Task-9 _CLI
+mv file_test /Task-9_CLI
+sudo mv file_test /Task-9_CLI
+ls
+rm CLI
+rm -r CLI
+ls
+cd ..
+history
+history -w~/Desktop/cli.txt
+history -w ~/Desktop/Task-9CLI.txt
