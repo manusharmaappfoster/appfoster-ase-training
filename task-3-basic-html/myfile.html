@@ -9,11 +9,13 @@
         
         .Info
         {
+            line-height: 1em;
+            width: 600px;
             margin-left: 50px;
             background-color: lightgrey;
             padding:30px;
             padding-top: 5px;
-            margin-right: 600px;
+            margin-right: 1000px;
         }  
         .image
         {  
@@ -27,32 +29,31 @@
         .profile-picture
         {
             float: right;
-            margin-top:-280px;
-            margin-right: 150px;
+            margin-top:-340px;
+            margin-right: 70px;
             background-color: rgb(228, 226, 226);
             padding:10px
         }
         .profile-pic 
         {
-            width: 280px;
-            height:200px;
+            width: 450px;
+            height: 300PX;
             border:11px solid green;
             
         }
         .Details{
             margin: 50px;
+            margin-top: 8%;
             background-color: lightgray;
         }
         .EdTable, .EdHead, .EdData{
             border: 1px solid black;
             border-collapse: collapse;
         }
-        /* table, th, td{
-            border: 1px solid black;
-            border-collapse: collapse;
-        } */
+        
         .Education{
             margin-left:50px;
+            margin-top: 5%;
             margin-bottom:40px
         }
         .EdHead, .EdData{
@@ -65,9 +66,9 @@
     </style> 
 </head>
 <body>
-    <div class="Info">
-        <h1>Manu Aakash Sharma</h1>
-        <h2>Web Developer / Desginer</h2>
+    <div class="Info" style="font-size:20px;">
+        <h1 style="font-size: 3em;">Manu Aakash Sharma</h1>
+        <h2 style="font-size: 2em;">Web Developer / Desginer</h2>
         <br/>
             🏠 555 Street address, Toledo, Ohio, 43606 U.S.A.
             <br/>
@@ -92,17 +93,17 @@
 
     <div class="Details">
         <table>
-            <tr >
-                <th style="padding: 40px">Profile:</th>
-                <td style="padding: 40px">
+            <tr VALIGN=TOP >
+                <th style="padding: 20px;font-size: 2em;">Profile:</th>
+                <td style="padding: 2%;">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quisquam error repudiandae totam vero beatae rem placeat 
                     maiores maxime sed dicta recusandae officiis corrupti quibusdam quis cumque, eius minus qui illo perferendis fugiat nobis
                     molestias! Harum possimus officiis, nulla sed voluptatibus iste laboriosam saepe eligendi maxime, maiores illo, molestiae minima.
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et eaque consequatur inventore nesciunt quas magnam aut facere? Odit laudantium, fugiat molestiae est qui harum saepe, quam eveniet a voluptatibus sit?
                 </td>
             </tr>
-            <tr>
-                <th>Skills:</th>
+            <tr VALIGN="TOP">
+                <th style="padding: 10px;font-size: 2em;">Skills:</th>
                 <td > 
                     <ul>
                         <li>XHTML</li>
@@ -124,8 +125,8 @@
                 <td >
                     
                 </td>
-                <tr>
-                <th style="padding:40px">Experience:</th>
+                <tr VALIGN="TOP">
+                <th style="padding:50px;font-size: 2em;">Experience:</th>
                 <td style="padding:40px">
                     <h2>Web Developer / Desginer</h2>
                     <p style="color: green;">Company Name !</p>
@@ -144,7 +145,7 @@
         </table>
     </div>
         <div class="Education">
-            <h3>Education</h3>
+            <h2 style="font-size: 2em;">Education</h2>
             <table class="EdTable">
                 <tr class="EdRow">
                     <th class="EdHead">Institute</th>
