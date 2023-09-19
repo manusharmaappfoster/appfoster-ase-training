@@ -4,14 +4,14 @@ function splitNumber() {
         output.removeChild(output.lastChild)
     }
 
-    const number = parseInt(document.getElementById('number').value);
-    const times = parseInt(document.getElementById('split-times').value);
+    const number = parseFloat(document.getElementById('number').value);
+    const times = parseFloat(document.getElementById('split-times').value);
 
     const container = document.createElement('div');
     container.classList.add('container');
     document.getElementById('output').appendChild(container);
     
-    if (number<=0 || times<=0 || number<times){
+    if (!Number.isInteger(number) || !Number.isInteger(times) || number<=0 || times<=0 || number<times){
         const box = document.createElement('div');
         box.classList.add('box', 'red');
         box.style.width = `100%`;
@@ -36,7 +36,7 @@ function splitNumber() {
 
     
 
-    const colors = ['red', 'blue', 'green', 'gray'];
+    const colors = ['violet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red'];
     for (let i = boxes.length-1; i >= 0; i--) {
         const box = document.createElement('div');
         box.classList.add('box', colors[i % colors.length]);
